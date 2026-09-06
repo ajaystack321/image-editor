@@ -1,9 +1,15 @@
+
+### 3. `.gitignore`
+
+Tumhara existing `.gitignore` ye rakho:
+
+```gitignore
 .venv/
 venv/
 __pycache__/
 *.pyc
 .env
-.streamlit/secrets.toml
+.streamlit/
 *.log
-.DS_Store
 Thumbs.db
+.DS_Store
